@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CSS Website Layout</title>
+<title>내 홈페이지</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -49,6 +49,13 @@ body {
   padding: 15px;
 }
 
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -67,8 +74,8 @@ body {
 <body>
 
 <div class="header">
-  <h1>HoShipKun의 홈페이지</h1>
-  <p>군대와 관련된 내용!</p>
+  <h1 style="color:rgb(0, 51, 0); font-family:verdana;">HoShipKun의 홈페이지</h1>
+  <p style="color:rgb(51, 102, 0);">군대와 관련된 내용을 한눈에!</p>
 </div>
 
 <div class="topnav">
@@ -79,19 +86,34 @@ body {
 
 <div class="row">
   <div class="column">
-    <h2>Column</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <h2 style="text-align:center;">군대란?</h2>
+    <img src="./image/굳건이.jpg" alt="굳건이" style="width:100%;">
+    <p>군대(軍隊)는 한 국가의 방어를 책임지며, 다른 나라와 전쟁 및 전투를 담당하는 기관이며 국가에 따라 국군(정규군)과 당군(당에 소속된 군대)으로 구분하고, 통상 활동 영역에 따라 육군과 해군과 공군과 해병대 등으로 나뉜다. 군대는 정치적 목적을 달성하기 위해 사용된다. 또한 군대는 전쟁에 대비하여 전투 조직과 전투 지원 조직과 이들을 구성하는 인력과 장비와 병참과 훈련과 시설 등을 관리할 수 있는 기구로 구성되며, 군대의 효율성은 이들 조직들이 얼마나 잘 활용되고 있는지에 따라 평가된다. 군대는 합법적 권력 기관이라는 점에서 준군사조직과 다르며, 외국과의 전쟁에 대비한다는 점에서 경찰 같은 국내를 대상으로 하는 사법 기관과 대비된다.</p>
   </div>
   
   <div class="column">
-    <h2>Column</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <h2 style="text-align:center;">군대를 가야하는 이유</h2>
+    <p>대한민국의 병역 제도는 '국민개병제'를 원칙으로 한 징병제이다. 징병제는 한국 전쟁 발발 직후인 1951년부터 실시되었다. 아래와 같이 법으로 규정되어 있다.<br></p>
+    <p style="text-align:center;"><strong>대한민국 헌법 제39조</strong></p>
+  <ul style="list-style-type:disc;">
+    <li>모든 국민은 법률이 정하는 바에 의하여 국방의 의무를 진다.</li>
+    <li>누구든지 병역의무의 이행으로 인하여 불이익한 처우를 받지 아니한다.</li>
+  </ul>
+  <p style="text-align:center;"><strong>대한민국 병역법 제3조</strong></p>
+  <ul style="list-style-type:disc;">
+    <li>대한민국 국민인 남성은 헌법과 이 법에서 정하는 바에 따라 병역의무를 성실히 수행하여야 한다. 여성은 지원에 의하여 현역 및 예비역으로만 복무할 수 있다.</li>
+  </ul>
+  <p>또한 대한민국은 아직 휴전국가이기 때문에 언제 전쟁이 일어나도 대비할 수 있어야 한다. 이와 같은 이유로 최소한의 전투 훈련이 필요하다. 그것을 위해 군대를 가는 것이다. 만약 종전 선언을 한 뒤에는 징병제가 점차 사라질 것으로 예상된다.</p>
   </div>
   
   <div class="column">
-    <h2>Column</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <h2 style="text-align:center;">군대에 가야하는 사람</h2>
+    <a href="./html/table/html">표 보기</a>
   </div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
 </div>
 
 </body>
