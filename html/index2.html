@@ -76,6 +76,17 @@ a:hover, a:active {
   background-color: #66cc00;
 }
 
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 120px;
+  height: 345px;
+  background-color: green;
+  color: white;
+  border: 3px solid #73AD21;
+}
+
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width:600px) {
   .column {
@@ -99,24 +110,56 @@ a:hover, a:active {
 
 <div class="row">
   <div class="column">
-    <h2 style="color:#336600;">육군</h2>
+    <h2 id="계급" style="color:#336600;">계급</h2>
+    <p>다음은 군대의 공통적인 계급이다.</p>
+    <p style="font-size:120%"><strong>병</strong></p>
+    <p>병 계급장의 형태는 지구 구성요소인 4개의 층을 표시한 것. 군 기반 형성의 상징으로 계급이 오를수록 전투 능력 향상 및 임무수행의 숙달을 의미</p>
+    <img src="../image/병.jpg" alt="병">
+    <br>
+    <p style="font-size:120%"><strong>부사관</strong></p>
+    <p>굳건한 기초위에 자라나는 나뭇가지를 형상화 한 것으로 자라나는 나무처럼 전문화된 기술, 숙련된 전투력 개발능력의 축적을 나타냄</p>
+    <img src="../image/부사관.jpg" alt="부사관">
+    <br>
+    <p style="font-size:120%"><strong>위관장교</strong></p>
+    <p>위관장교의 마름모는 금강석(다이아몬드)을 상징하는 것으로 가장 단단하면서 깨어지지 않는 특성을 초급장교로서 국가 수호의 굳건한 의지로 표현</p>
+    <img src="../image/위관장교.jpg" alt="위관장교">
+    <br>
+    <p style="font-size:120%"><strong>영관장교</strong></p>
+    <p>영관의 대나무는 사계절 항상 푸르름과 굳건한 기상 그리고 절개를 상징</p>
+    <img src="../image/영관장교.jpg" alt="영관장교">
+    <br>
+    <p style="font-size:120%"><strong>장군</strong></p>
+    <p>장군의 별은 스스로 빛을 내는 천체로서 군에서의 모든 경륜을 익힌 완숙한 존재임을 상징하며 위관장교의 금강석은 지하를 영관장교는 지상을 장군의 별은 우주를 표현</p>
+    <img src="../image/장군.jpg" alt="장군">
+  </div>
+
+  <div class="column">
+    <h2 id="육군" style="color:#336600;">육군</h2>
     <p>ㅁㄴㅇㄹ</p>
   </div>
   
   <div class="column">
-    <h2 style="color:#336600;">해군</h2>
+    <h2 id="해군" style="color:#336600;">해군</h2>
     <p>ㅁㄴㅇㄹ</p>
   </div>
   
   <div class="column">
-    <h2 style="color:#336600;">공군</h2>
+    <h2 id="공군" style="color:#336600;">공군</h2>
     <p>ㅁㄴㅇㄹ</p>
   </div>
 
   <div class="column">
-    <h2 style="color:#336600;">해병대</h2>
+    <h2 id="해병대" style="color:#336600;">해병대</h2>
     <p>ㅁㄴㅇㄹ</p>
   </div>
+</div>
+
+<div class="fixed">
+  <p><a href="#계급">계급으로</a></p>
+  <p><a href="#육군">육군으로</a></p>
+  <p><a href="#해군">해군으로</a></p>
+  <p><a href="#공군">공군으로</a></p>
+  <p><a href="#해병대">해병대로</a></p>
 </div>
 
 </body>
